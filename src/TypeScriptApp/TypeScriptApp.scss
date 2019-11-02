@@ -1,0 +1,10 @@
+.typescript-app {
+  padding: 20px;
+  &:before {
+    content: "I am from CSS in TypeScriptApp.scss";
+    color: violet;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Courier New", Courier, monospace;
+  }
+}

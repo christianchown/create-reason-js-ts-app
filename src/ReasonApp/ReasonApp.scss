@@ -1,0 +1,10 @@
+.reason-app {
+  padding: 20px;
+  &:before {
+    content: "I am from CSS in ReasonApp.scss";
+    color: blueviolet;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
