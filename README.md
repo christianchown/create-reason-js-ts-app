@@ -17,3 +17,12 @@ Launches the test runner in the interactive watch mode.
 Builds the app for production to the `build` folder.
 
 The idea is to not eject.
+
+## Environment variables
+
+Add these to `.env` or `.env.local`
+
+| Environment variable       | Values                                        | Required? | Effect                               |
+| -------------------------- | --------------------------------------------- | --------- | ------------------------------------ |
+| `REACT_APP_ENTRY_POINT`    | one of `Reason` / `TypeScript` / `JavaScript` | Yes       | Determines initial <App /> component |
+| `REACT_APP_SERVICE_WORKER` | truthy                                        | No        | Will register a service worker       |
